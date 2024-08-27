@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+        <br>
+        <br>
+        <form action="{% url 'home' %}" method="POST" enctype="multipart/form-data">{% csrf_token %}
+            
+            <input type="text" name="titulo" placeholder="Digite o titulo..." class="form-control" id="">
+            <br><br>
+            <input type="file" name="video" class="form-control">
+            <br>
+            <input type="submit" value="enviar" class="btn btn-success">
+        </form>
+    </div>
+  </body>
+</html>
