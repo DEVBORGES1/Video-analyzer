@@ -128,4 +128,4 @@ MEDIA_URL = '/media/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # OPENAI
-SK_OPENAI = "sk-Wx27xmMkkkcOR6y4CimpqVU-bHJI_Aa5hWy-4ovW6kT3BlbkFJRQfq-QK2rv4PDDmoMHxNa2RchgoQQxF492tqN2jl0A"
+SK_OPENAI = "x"
