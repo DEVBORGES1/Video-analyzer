@@ -18,3 +18,5 @@ def home(request):
 
         return HttpResponse('Deu certo')
 
+
+
